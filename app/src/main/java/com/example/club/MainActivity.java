@@ -12,6 +12,13 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     public List<EmployeeBean> EMPLOYEE_LIST = new ArrayList<EmployeeBean>();
+
+    void print()
+    {
+        System.out.println("hello github");
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
