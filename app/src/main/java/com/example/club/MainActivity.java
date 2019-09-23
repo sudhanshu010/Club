@@ -12,6 +12,9 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     public List<EmployeeBean> EMPLOYEE_LIST = new ArrayList<EmployeeBean>();
+
+    int y = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
