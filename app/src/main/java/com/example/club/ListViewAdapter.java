@@ -17,6 +17,12 @@ public class ListViewAdapter extends BaseAdapter {
     private Context context;
     private List<EmployeeBean> employeeList;
 
+
+    void print()
+    {
+        System.out.println("hello github");
+    }
+
     public ListViewAdapter(Context context, List<EmployeeBean> employeeList) {
         this.context = context;
         this.employeeList = employeeList;
