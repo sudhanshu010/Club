@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     public List<EmployeeBean> EMPLOYEE_LIST = new ArrayList<EmployeeBean>();
 
-    int y = 0;
+    int y;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
