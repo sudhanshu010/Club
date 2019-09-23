@@ -13,17 +13,13 @@ public class MainActivity extends AppCompatActivity {
 
     public List<EmployeeBean> EMPLOYEE_LIST = new ArrayList<EmployeeBean>();
 
-    int y;
 
-    void print2()
+    void print()
     {
         System.out.println("hello github");
     }
 
-    void print3()
-    {
-        System.out.println("hello github");
-    }
+
 
 
     @Override
@@ -37,13 +33,7 @@ public class MainActivity extends AppCompatActivity {
             EmployeeBean employee = new EmployeeBean("EmpId"+i);
             EMPLOYEE_LIST .add(employee );
         }
-        Log.i("check","pass3");
-        ListView listView;
-        listView = (ListView) findViewById(R.id.listView);
-        Log.i("check","pass4");
-        //ListViewAdapter adap = new ListViewAdapter(this, EMPLOYEE_LIST);
-        listView.setAdapter(new ListViewAdapter(this, EMPLOYEE_LIST));
-        Log.i("check","pass5");
+
     }
 
 
