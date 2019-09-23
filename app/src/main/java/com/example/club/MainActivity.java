@@ -15,6 +15,16 @@ public class MainActivity extends AppCompatActivity {
 
     int y;
 
+    void print2()
+    {
+        System.out.println("hello github");
+    }
+
+    void print3()
+    {
+        System.out.println("hello github");
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
